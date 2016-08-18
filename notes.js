@@ -48,7 +48,8 @@ class NotesApplication{
 		}
 
 	deleteNote(note_id) {
-		this.notes.pop[note_id];
+		if (this.notes[note_id]);
+			this.notes.pop(this.notes[note_id]);
 		
 	}
 
